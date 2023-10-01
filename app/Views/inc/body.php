@@ -1,641 +1,638 @@
-include()
+
 <body>
-		<div class="page-wrapper">
+  
 
-			<header id="header">
-				<div class="container-lg">
-					<div class="header-left">
-						<div class="logo">
-							<a href="#"><img src="assets/images/demos-img/logo.png" alt="Molla Logo"></a>
-						</div>
-					</div>
-					<div class="header-main">
-						<ul class="menu">
-							<li>
-								<a href="#" class="goto-demos">Demos</a>
-							</li>
-							<li>
-								<a href="#" class="goto-features">Features</a>
-							</li>
-							<li>
-								<a href="#" class="goto-elements">Elements</a>
-							</li>
-							<li>
-								<a href="#" class="goto-support">Support</a>
-							</li>
-						</ul>
-					</div>
-					<div class="header-right">
-						<a class="mobile-menu-toggler mr-0 mr-sm-5"><i class="icon-bars"></i></a>
-						<a class="btn btn-primary btn-outline"><i class="icon-shopping-cart"></i>Buy Molla</a>
-					</div>
-				</div>
-			</header>
+        <main class="main">
+            <div class="intro-slider-container mb-3 mb-lg-5">
+                <div class="intro-slider owl-carousel owl-simple owl-nav-inside owl-light" data-toggle="owl" data-owl-options='{"nav":false, "dots": false, "loop": false}'>
+                    <div class="intro-slide" style="background-image: url(assets/images/demos/demo-12/slider/slide-1.jpg);">
+                        <div class="container intro-content text-center">
+                            <h3 class="intro-subtitle text-white">SEASONAL PICKS</h3><!-- End .h3 intro-subtitle -->
+                            <h1 class="intro-title text-white">Get All The Good Stuff</h1><!-- End .intro-title -->
 
+                            <a href="category.html" class="btn btn-outline-white">
+                                <span>DISCOVER MORE</span>
+                                <i class="icon-long-arrow-right"></i>
+                            </a>
+                        </div><!-- End .intro-content -->
+                    </div><!-- End .intro-slide -->
+                </div><!-- End .intro-slider owl-carousel owl-simple -->
 
-			<div id="main">
-				<section class="banner section-dark" style="background: #222;">
-					<img src="assets/images/demos-img/header_splash.jpg" alt="" width="1920" height="1120">
-					<div class="banner-text text-center">
-						<h1>Multi-Purpose eCommerce HTML5 Template</h1>
-						<h5 class="mb-5">Molla is simply the best choice for your new website. Your search for the best solution is over, get your own copy and join thousands of happy customers.</h5>
-						<p class="mb-0"><a href="#" class="btn btn-primary btn-outline goto-demos">Explore Demos<i class="icon-long-arrow-alt-down"></i></a></p>
-					</div>
-				</section>
-				<section class="section section-demos text-center container-lg">
-					<h2>20 Pre-Build Demos</h2>
-					<p>Comes with 20 homepages available with multi style that better for your choice.<br>Molla store is one of the best Multi-Purpose eCommerce HTML Template for your store.</p>
-					<div class="demo-filter menu">
-						<a href="#homepages" class="active">Home Pages</a>
-						<a href="#shoppages">Shop Pages</a>
-						<a href="#productpages">Product Pages</a>
-						<a href="#otherpages">Other Pages</a>
-					</div>
-					<div class="row demos">
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-1.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_furniture1.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Furniture 1">
-								<h5>Furniture 1</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-2.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_furniture2.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Furniture 2">
-								<h5>Furniture 2</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-3.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_electronic1.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Electronic 1">
-								<h5>Electronic 1</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-4.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_electronic2.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Electronic 2">
-								<h5>Electronic 2</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-5.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_fashion1.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Fashion 1">
-								<h5>Fashion 1</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-6.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_fashion2.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Fashion 2">
-								<h5>Fashion 2</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-7.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_fashion3.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Fashion 3">
-								<h5>Fashion 3</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-8.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_fahion4.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Fashion 4">
-								<h5>Fashion 4</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-9.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_fashion5.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Fashion 5">
-								<h5>Fashion 5</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-10.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_shoesstore.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Shoes Store">
-								<h5>Shoes Store</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-11.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_furniture_simple.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Furniture 3">
-								<h5>Furniture 3 <span>(Simple)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-12.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_fashion_simple.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Fashion 6 (Simple)">
-								<h5>Fashion 6 <span>(Simple)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-13.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_market1.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Market">
-								<h5>Market</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-14.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_market.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Market (Full Width)">
-								<h5>Market <span>(Full Width)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-15.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_lookbook.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Lookbook 1">
-								<h5>Lookbook 1</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-16.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_lookbook2.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Lookbook 2">
-								<h5>Lookbook 2</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-17.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_fashion7.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Fashion 7">
-								<h5>Fashion 7</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-18.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_fashion8.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="ashion 8 (With Sidebar)">
-								<h5>Fashion 8 <span>(With Sidebar)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-19.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_gamestore.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Game Store">
-								<h5>Game Store</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-20.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_bookstore.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Book Store">
-								<h5>Book Store</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-21.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_sport.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Furniture 2">
-								<h5>Sport Store</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-22.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_tools.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Furniture 2">
-								<h5>Tools Store</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-23.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_fashion9.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Furniture 2">
-								<h5>Fashion 9 <span>(Left Navigation)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 homepages">
-							<a href="index-24.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/molla_extreme_sport.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Furniture 2">
-								<h5>Extreme Sport Store</h5>
-							</a>
-						</div>
+                <span class="slider-loader text-white"></span><!-- End .slider-loader -->
+            </div><!-- End .intro-slider-container -->
 
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="category-list.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/21_shop_list.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Shop List">
-								<h5>Shop List</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="category-2cols.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/22_shop_grid_2col.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Shop Grid">
-								<h5>Shop Grid <span>(2 Col)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="category.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/23_shop_grid_3col.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Shop Grid">
-								<h5>Shop Grid <span>(3 Col)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="category-4cols.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/24_shop_grid_4col.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Book Store">
-								<h5>Shop Grid <span>(4 Col)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="category-boxed.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/25_shop_boxed_no_sidebar.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Shop Boxed">
-								<h5>Shop Boxed <span>(No Sidebar)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="category-fullwidth.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/26_shop_fullwidth_no_sidebar.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Shop Fullwidth">
-								<h5>Shop Fullwidth <span>(No Sidebar)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="product-category-boxed.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/27_shop_product_category_boxed.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product Category">
-								<h5>Product Category <span>(Boxed)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="product-category-fullwidth.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/28_shop_product_category_fullwidth.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product Category">
-								<h5>Product Category <span>(Full Width)</span></h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="cart.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/29_shop_shopping_cart.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Shopping Cart">
-								<h5>Shopping Cart</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="checkout.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/30_shop_checkout.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Checkout">
-								<h5>Checkout</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="wishlist.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/31_shop_wishlist.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Wishlist">
-								<h5>Wishlist</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 shoppages">
-							<a href="dashboard.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/shop_my_account.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="My Account">
-								<h5>My Account</h5>
-							</a>
-						</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="banner banner-display banner-link-anim banner-title-hidden">
+                            <a href="#">
+                                <img src="assets/images/demos/demo-12/banners/banner-1.jpg" alt="Banner">
+                            </a>
 
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 productpages">
-							<a href="product.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/32_product_default.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product default">
-								<h5>Product default</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 productpages">
-							<a href="product-centered.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/33_product_centered.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product centered">
-								<h5>Product centered</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 productpages">
-							<a href="product-extended.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/34_product_extended_description_boxed.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product extended description">
-								<h5>Product extended description</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 productpages">
-							<a href="product-gallery.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/35_product_gallery.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product gallery">
-								<h5>Product gallery</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 productpages">
-							<a href="product-sticky.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/36_product_sticky_info.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product sticky info">
-								<h5>Product sticky info</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 productpages">
-							<a href="product-sidebar.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/37_product_with_sidebar.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product with sidebar">
-								<h5>Product with sidebar</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 productpages">
-							<a href="product-fullwidth.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/38_product_fullwidth.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product fullwidth">
-								<h5>Product fullwidth</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 productpages">
-							<a href="product-masonry.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/39_product_masonry_sticky_info.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Product masonry (sticky info)">
-								<h5>Product masonry <span>(sticky info)</span></h5>
-							</a>
-						</div>
+                            <div class="banner-content banner-content-center">
+                                <h3 class="banner-title text-white"><a href="#">This Week's Most Wanted</a></h3><!-- End .banner-title -->
+                                <a href="#" class="btn btn-outline-white banner-link">Shop Now</a>
+                            </div><!-- End .banner-content -->
+                        </div><!-- End .banner -->
+                    </div><!-- End .col-md-6 -->
 
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 otherpages">
-							<a href="about.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/40_pages_aboutus.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="About Us">
-								<h5>About Us</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 otherpages">
-							<a href="about-2.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/41_pages_aboutus_2.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="About Us 2">
-								<h5>About Us 2</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 otherpages">
-							<a href="contact.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/42_pages_contactus.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Contact Us">
-								<h5>Contact Us</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 otherpages">
-							<a href="contact-2.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/43_pages_contactus_2.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Contact us 2">
-								<h5>Contact us 2</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 otherpages">
-							<a href="login.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/44_pages_login.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Login page">
-								<h5>Login page</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 otherpages">
-							<a href="faq.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/45_pages_FAQ.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="F.A.Q page">
-								<h5>F.A.Q page</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 otherpages">
-							<a href="404.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/46_pages_error_404.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Error 404 page">
-								<h5>Error 404 page</h5>
-							</a>
-						</div>
-						<div class="iso-item col-sm-6 col-md-4 col-lg-3 otherpages">
-							<a href="coming-soon.html" target="_blank">
-								<img src="assets/images/demos-img/lazy.png" data-oi="assets/images/demos-img/47_pages_coming_soon.jpg" width="500" height="385" class="molla-lz" style="padding-top: 77%" alt="Coming Soon page">
-								<h5>Coming Soon page</h5>
-							</a>
-						</div>
-					</div>
-					<h5 class="text-load-more">More New Demos Coming Soon ...</h5>
-				</section>
+                    <div class="col-md-6">
+                        <div class="banner banner-display banner-link-anim banner-title-hidden">
+                            <a href="#">
+                                <img src="assets/images/demos/demo-12/banners/banner-2.jpg" alt="Banner">
+                            </a>
 
-				<section class="section section-features">
-					<h2 class="text-center">Our Core Features</h2>
-					<p class="text-center">Powerful features and inclusions, which makes Molla standout,<br>easily customizable and scalable.</p>
-					<div class="divider-line">
-						<div class="container-lg">
-							<div class="overflow-hidden">
-								<div class="row">
-									<div class="col-sm-6 col-lg-3">
-										<div class="icon-box">
-											<i class="icon-laptop"></i>
-											<h4>Fully Responsive Design Layouts</h4>
-											<p>The Template looks good and sharp with all kind of devices and screen sizes. which increase the layout flexibility.</p>
-										</div>
-									</div>
-									<div class="col-sm-6 col-lg-3">
-										<div class="icon-box">
-											<i class="icon-code"></i>
-											<h4>Clean And Professional Codes</h4>
-											<p>The Template is ready with clean and well structured coding style by the Professional developers team.</p>
-										</div>
-									</div>
-									<div class="col-sm-6 col-lg-3">
-										<div class="icon-box">
-											<i class="icon-fill-drip"></i>
-											<h4>Creative And Modern Design Layout</h4>
-											<p>Every single section is created with the passion and years of experience in the website development.</p>
-										</div>
-									</div>
-									<div class="col-sm-6 col-lg-3">
-										<div class="icon-box">
-											<i class="icon-align-left"></i>
-											<h4>Perfect Documentations</h4>
-											<p>There are lots of creative section for you. So we have create a documentation that will helpful to understand the flow.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="container-lg">
-							<div class="overflow-hidden">
-								<div class="row">
-									<div class="col-sm-6 col-lg-3">
-										<div class="icon-box">
-											<i class="icon-th"></i>
-											<h4>Build With Bootstrap</h4>
-											<p>This Template is created with latest bootstrap version which used its new classes and tags.</p>
-										</div>
-									</div>
-									<div class="col-sm-6 col-lg-3">
-										<div class="icon-box">
-											<i class="icon-envelope-open-text"></i>
-											<h4>Working Contact Form</h4>
-											<p>There are different different styled form layouts that used to get in touch with you.</p>
-										</div>
-									</div>
-									<div class="col-sm-6 col-lg-3">
-										<div class="icon-box">
-											<i class="icon-cogs"></i>
-											<h4>Easily Customizable</h4>
-											<p>The design is fully customizable. Unlimited color styles, all 500+ Google fonts, and etc!</p>
-										</div>
-									</div>
-									<div class="col-sm-6 col-lg-3">
-										<div class="icon-box">
-											<i class="icon-html5" style="font-size: 2.4rem;""></i>
-											<h4>Valid HTML 5 And CSS 3</h4>
-											<p>We have used latest HTML and Css Coding style that makes the pages in well working state.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+                            <div class="banner-content banner-content-center">
+                                <h3 class="banner-title text-white"><a href="#">Bags by Mood</a></h3><!-- End .banner-title -->
+                                <a href="#" class="btn btn-outline-white banner-link">Discover Now</a>
+                            </div><!-- End .banner-content -->
+                        </div><!-- End .banner -->
+                        <div class="banner banner-display banner-link-anim banner-title-hidden">
+                            <a href="#">
+                                <img src="assets/images/demos/demo-12/banners/banner-3.jpg" alt="Banner">
+                            </a>
 
-				<section class="section section-elements container">
-					<h2 class="text-center">Elements For Everything</h2>
-					<p class="text-center">Use your creativity and the power of Molla elements to create your pages,<br>check out some of them.</p>
-					<br>
-					<div class="row">
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-accordions.html" target="_blank">
-								<div class="img-box">
-									<i class="img-accordions"></i>
-									<h5>Accordions</h5>
-								</div>
-	                        </a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-banners.html" target="_blank">
-								<div class="img-box">
-									<i class="img-banners"></i>
-									<h5>Banners</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-blog-posts.html" target="_blank">
-								<div class="img-box">
-									<i class="img-blog-posts"></i>
-									<h5>Blog Posts</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-buttons.html" target="_blank">
-								<div class="img-box">
-									<i class="img-buttons"></i>
-									<h5>Buttons</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-cta.html" target="_blank">
-								<div class="img-box">
-									<i class="img-cta"></i>
-									<h5>Call To Action</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-icon-boxes.html" target="_blank">
-								<div class="img-box">
-									<i class="img-icon-boxes"></i>
-									<h5>Icon Boxes</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-portfolio.html" target="_blank">
-								<div class="img-box">
-									<i class="img-portfolio"></i>
-									<h5>Portfolio</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-product-category.html" target="_blank">
-								<div class="img-box">
-									<i class="img-product-categories"></i>
-									<h5>Product Categories</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-products.html" target="_blank">
-								<div class="img-box">
-									<i class="img-products"></i>
-									<h5>Products</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-tabs.html" target="_blank">
-								<div class="img-box">
-									<i class="img-tabs"></i>
-									<h5>Tabs</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-testimonials.html" target="_blank">
-								<div class="img-box">
-									<i class="img-testimonials"></i>
-									<h5>Testimonials</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-titles.html" target="_blank">
-								<div class="img-box">
-									<i class="img-titles"></i>
-									<h5>Titles</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5" target="_blank">
-							<a href="elements-typography.html">
-								<div class="img-box">
-									<i class="img-typography"></i>
-									<h5>Typography</h5>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 col-lg-1-5">
-							<a href="elements-video-banners.html" target="_blank">
-								<div class="img-box">
-									<i class="img-video"></i>
-									<h5>Video</h5>
-								</div>
-							</a>
-						</div>
-					</div>
-				</section>
-				<section class="section section-support section-dark">
-					<div class="container molla-lz text-center" data-oi="assets/images/demos-img/support_bg.jpg">
-						<h2>Outstaning Support Center<span class="fw-400">+</span>Extensive Documentation</h2>
-						<p>Support is one of our priorities, our dedicatated support<br>will be waiting for you if you have any questions.</p>
-					</div>
-				</section>
-				<section class="section section-light section-ready container text-center">
-					<h2 class="mb-3">Molla Is Ready To Use. Get It Now!</h2>
-					<p>DON'T FORGET TO APPRECIATE OUR WORK. RATE US NOW!</p>
-					<div class="star-rating mb-4 pb-3">
-						<i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
-					</div>
-					<p><a class="btn btn-primary btn-outline" href="#"><i class="icon-shopping-cart"></i>Buy Molla</a></p>
-				</section>
-			</div>
-			<footer id="footer" class="container-lg">
-				<div class="row">
-					<div class="col-md-6 text-center text-md-left mb-4 mb-md-0">
-						<p class="copyright mb-0"><a href="templateshub.net">Templateshub</a></p>
-					</div>
-					<div class="col-md-6 text-center text-md-right social-icons">
-						<label class="mr-3">Social Media</label>
-						<a href="#" title="Facebook"><i class="icon-facebook-f"></i></a>
-						<a href="#" title="Twitter"><i class="icon-twitter"></i></a>
-						<a href="#" title="Instagram"><i class="icon-instagram"></i></a>
-						<a href="#" title="Youtube"><i class="icon-youtube"></i></a>
-						<a href="#" title="Pinterest"><i class="icon-pinterest"></i></a>
-					</div>
-				</div>
-			</footer>
-		</div>
+                            <div class="banner-content banner-content-center">
+                                <h3 class="banner-title text-white"><a href="#">The Trend Story</a></h3><!-- End .banner-title -->
+                                <a href="#" class="btn btn-outline-white banner-link">Shop Now</a>
+                            </div><!-- End .banner-content -->
+                        </div><!-- End .banner -->
+                    </div><!-- End .col-md-6 -->
+                </div><!-- End .row -->
 
-		<!-- Mobile Menu -->
-		<div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+                <div class="mb-3"></div><!-- End .mb-3 -->
+            </div><!-- End .container -->
 
-		<div class="mobile-menu-container">
-			<div class="mobile-menu-wrapper">
-				<span class="mobile-menu-close"><i class="icon-close"></i></span>
+            <div class="bg-lighter pt-5 pb-5 mb-5">
+                <div class="container">
+                    <div class="heading text-center mb-4">
+                        <h2 class="title">Recent Arrivals</h2><!-- End .title -->
+                        <p class="title-desc">Aliquam tincidunt mauris eurisus</p><!-- End .title-desc -->
+                    </div><!-- End .heading -->
 
-				<nav class="mobile-nav">
-					<ul class="mobile-menu">
-						<li>
-							<a href="#" class="goto-demos">Demos</a>
-						</li>
-						<li>
-							<a href="#">Features</a>
-						</li>
-						<li>
-							<a href="#">Elements</a>
-						</li>
-						<li>
-							<a href="#">Support</a>
-						</li>
-					</ul>
-				</nav><!-- End .mobile-nav -->
+                    <div class="owl-carousel owl-simple" data-toggle="owl"
+                        data-owl-options='{
+                            "nav": false,
+                            "dots": true,
+                            "margin": 20,
+                            "loop": false,
+                            "responsive": {
+                                "0": {
+                                    "items":2
+                                },
+                                "480": {
+                                    "items":2
+                                },
+                                "768": {
+                                    "items":3
+                                },
+                                "992": {
+                                    "items":4
+                                },
+                                "1200": {
+                                    "items":4,
+                                    "nav": true
+                                }
+                            }
+                        }'>
+                        <div class="product product-4">
+                            <figure class="product-media">
+                                <a href="product.html">
+                                    <img src="assets/images/demos/demo-12/products/product-1.jpg" alt="Product image" class="product-image">
+                                    <img src="assets/images/demos/demo-12/products/product-1-2.jpg" alt="Product image" class="product-image-hover">
+                                </a>
 
-				<div class="d-flex justify-content-center social-icons">
-					<a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
-					<a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
-					<a href="#" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
-					<a href="#" class="social-icon" target="_blank" title="Youtube"><i class="icon-youtube"></i></a>
-				</div><!-- End .social-icons -->
-			</div><!-- End .mobile-menu-wrapper -->
-		</div><!-- End .mobile-menu-container -->
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action -->
 
-		<!-- Vendor -->
-		<script src="lib/jquery/jquery.min.js"></script>
-		<script src="lib/jquery.appear/jquery.appear.min.js"></script>
-		<!--<script src="lib/popper/umd/popper.min.js"></script>-->
-		<script src="lib/jquery.lazyload/jquery.lazyload.min.js"></script>
-		<script src="lib/isotope/jquery.isotope.min.js"></script>
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
 
-		<!-- Theme Base, Components and Settings -->
-		<script src="assets/main.js"></script>
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    <a href="#">Clothing</a>
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Linen-blend dress</a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    $60.00
+                                </div><!-- End .product-price -->
+                                <div class="product-nav product-nav-dots">
+                                    <a href="#" class="active" style="background: #e5dcb1;"><span class="sr-only">Color name</span></a>
+                                    <a href="#" style="background: #bacbd8;"><span class="sr-only">Color name</span></a>
+                                </div><!-- End .product-nav -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+
+                        <div class="product product-4">
+                            <figure class="product-media">
+                                <span class="product-label label-primary">Sale</span>
+                                <a href="product.html">
+                                    <img src="assets/images/demos/demo-12/products/product-2.jpg" alt="Product image" class="product-image">
+                                    <img src="assets/images/demos/demo-12/products/product-2-2.jpg" alt="Product image" class="product-image-hover">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    <a href="#">Shoes</a>
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Sandals with lacing</a></h3><!-- End .product-title -->
+
+                                <div class="product-price">
+                                    <span class="new-price">Now $70.00</span>
+                                    <span class="old-price">Was $84.00</span>
+                                </div><!-- End .product-price -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+
+                        <div class="product product-4">
+                            <figure class="product-media">
+                                <a href="product.html">
+                                    <img src="assets/images/demos/demo-12/products/product-3.jpg" alt="Product image" class="product-image">
+                                    <img src="assets/images/demos/demo-12/products/product-3-2.jpg" alt="Product image" class="product-image-hover">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    <a href="#">Clothing</a>
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Paper bag trousers</a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    $60.00
+                                </div><!-- End .product-price -->
+                                <div class="product-nav product-nav-dots">
+                                    <a href="#" class="active" style="background: #9fac76;"><span class="sr-only">Color name</span></a>
+                                    <a href="#" style="background: #333333;"><span class="sr-only">Color name</span></a>
+                                </div><!-- End .product-nav -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+
+                        <div class="product product-4">
+                            <figure class="product-media">
+                                <a href="product.html">
+                                    <img src="assets/images/demos/demo-12/products/product-4.jpg" alt="Product image" class="product-image">
+                                    <img src="assets/images/demos/demo-12/products/product-4-2.jpg" alt="Product image" class="product-image-hover">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    <a href="#">Handbags</a>
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Bucket bag</a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    $350.00
+                                </div><!-- End .product-price -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+
+                        <div class="product product-4">
+                            <figure class="product-media">
+                                <a href="product.html">
+                                    <img src="assets/images/demos/demo-12/products/product-5.jpg" alt="Product image" class="product-image">
+                                    <img src="assets/images/demos/demo-12/products/product-5-2.jpg" alt="Product image" class="product-image-hover">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    <a href="#">Clothing</a>
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Silk-blend kaftan</a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    $370.00
+                                </div><!-- End .product-price -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+
+                        <div class="product product-4">
+                            <figure class="product-media">
+                                <span class="product-label label-new">New</span>
+                                <a href="product.html">
+                                    <img src="assets/images/demos/demo-12/products/product-6.jpg" alt="Product image" class="product-image">
+                                    <img src="assets/images/demos/demo-12/products/product-6-2.jpg" alt="Product image" class="product-image-hover">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    <a href="#">Sandals</a>
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Spring Sandals</a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    $59.00
+                                </div><!-- End .product-price -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+                    </div><!-- End .owl-carousel -->
+                </div><!-- End .container -->
+            </div><!-- End .bg-lighter pt-5 pb-5 -->
+
+            <div class="container">
+                <div class="heading text-center mb-4">
+                    <h2 class="title">Popular Categories</h2><!-- End .title -->
+                    <p class="title-desc">Vestibulum auctor dapibus neque</p><!-- End .title-desc -->
+                </div><!-- End .heading -->
+
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="banner banner-display banner-link-anim">
+                            <a href="#">
+                                <img src="assets/images/demos/demo-12/banners/banner-4.jpg" alt="Banner">
+                            </a>
+
+                            <div class="banner-content banner-content-center">
+                                <h3 class="banner-title text-white"><a href="#">Accessories</a></h3><!-- End .banner-title -->
+                                <h4 class="banner-subtitle text-white"><a href="#">16 Items</a></h4><!-- End .banner-subtitle -->
+                                <a href="#" class="btn btn-outline-white banner-link">Shop Now</a>
+                            </div><!-- End .banner-content -->
+                        </div><!-- End .banner -->
+                    </div><!-- End .col-sm-6 -->
+
+                    <div class="col-sm-6 col-lg-4 order-lg-last">
+                        <div class="banner banner-display banner-link-anim">
+                            <a href="#">
+                                <img src="assets/images/demos/demo-12/banners/banner-5.jpg" alt="Banner">
+                            </a>
+
+                            <div class="banner-content banner-content-center">
+                                <h3 class="banner-title text-white"><a href="#">Jewellery</a></h3><!-- End .banner-title -->
+                                <h4 class="banner-subtitle text-white"><a href="#">8 Items</a></h4><!-- End .banner-subtitle -->
+                                <a href="#" class="btn btn-outline-white banner-link">Shop Now</a>
+                            </div><!-- End .banner-content -->
+                        </div><!-- End .banner -->
+                    </div><!-- End .col-sm-6 -->
+
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-12">
+                                <div class="banner banner-display banner-link-anim">
+                                    <a href="#">
+                                        <img src="assets/images/demos/demo-12/banners/banner-6.jpg" alt="Banner">
+                                    </a>
+
+                                    <div class="banner-content banner-content-center">
+                                        <h3 class="banner-title text-white"><a href="#">Clothing</a></h3><!-- End .banner-title -->
+                                        <h4 class="banner-subtitle text-white"><a href="#">24 Items</a></h4><!-- End .banner-subtitle -->
+                                        <a href="#" class="btn btn-outline-white banner-link">Discover Now</a>
+                                    </div><!-- End .banner-content -->
+                                </div><!-- End .banner -->
+                            </div><!-- End .col-sm-6 -->
+
+                            <div class="col-sm-6 col-lg-12">
+                                <div class="banner banner-display banner-link-anim">
+                                    <a href="#">
+                                        <img src="assets/images/demos/demo-12/banners/banner-7.jpg" alt="Banner">
+                                    </a>
+
+                                    <div class="banner-content banner-content-center">
+                                        <h3 class="banner-title text-white"><a href="#">Shoes</a></h3><!-- End .banner-title -->
+                                        <h4 class="banner-subtitle text-white"><a href="#">6 Items</a></h4><!-- End .banner-subtitle -->
+                                        <a href="#" class="btn btn-outline-white banner-link">Shop Now</a>
+                                    </div><!-- End .banner-content -->
+                                </div><!-- End .banner -->
+                            </div><!-- End .col-sm-6 -->
+                        </div><!-- End .row -->
+                    </div><!-- End .col-lg-6 -->
+                </div><!-- End .row -->
+
+                <div class="icon-boxes-container bg-transparent">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="icon-box icon-box-side">
+                                    <span class="icon-box-icon">
+                                        <i class="icon-rocket"></i>
+                                    </span>
+                                    <div class="icon-box-content">
+                                        <h3 class="icon-box-title">Free Shipping</h3><!-- End .icon-box-title -->
+                                        <p>Orders $50 or more</p>
+                                    </div><!-- End .icon-box-content -->
+                                </div><!-- End .icon-box -->
+                            </div><!-- End .col-sm-6 col-lg-3 -->
+
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="icon-box icon-box-side">
+                                    <span class="icon-box-icon">
+                                        <i class="icon-rotate-left"></i>
+                                    </span>
+
+                                    <div class="icon-box-content">
+                                        <h3 class="icon-box-title">Free Returns</h3><!-- End .icon-box-title -->
+                                        <p>Within 30 days</p>
+                                    </div><!-- End .icon-box-content -->
+                                </div><!-- End .icon-box -->
+                            </div><!-- End .col-sm-6 col-lg-3 -->
+
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="icon-box icon-box-side">
+                                    <span class="icon-box-icon">
+                                        <i class="icon-info-circle"></i>
+                                    </span>
+
+                                    <div class="icon-box-content">
+                                        <h3 class="icon-box-title">Get 20% Off 1 Item</h3><!-- End .icon-box-title -->
+                                        <p>When you sign up</p>
+                                    </div><!-- End .icon-box-content -->
+                                </div><!-- End .icon-box -->
+                            </div><!-- End .col-sm-6 col-lg-3 -->
+
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="icon-box icon-box-side">
+                                    <span class="icon-box-icon">
+                                        <i class="icon-life-ring"></i>
+                                    </span>
+
+                                    <div class="icon-box-content">
+                                        <h3 class="icon-box-title">We Support</h3><!-- End .icon-box-title -->
+                                        <p>24/7 amazing services</p>
+                                    </div><!-- End .icon-box-content -->
+                                </div><!-- End .icon-box -->
+                            </div><!-- End .col-sm-6 col-lg-3 -->
+                        </div><!-- End .row -->
+                    </div><!-- End .container -->
+                </div><!-- End .icon-boxes-container -->
+            </div><!-- End .container -->
+        </main><!-- End .main -->
+
+        <footer class="footer footer-2">
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="footer-copyright">Copyright © 2019 Molla Store. All Rights Reserved.</p><!-- End .footer-copyright -->
+                    <ul class="footer-menu">
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul><!-- End .footer-menu -->
+
+                    <div class="social-icons social-icons-color">
+                        <a href="#" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
+                        <a href="#" class="social-icon social-twitter" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
+                        <a href="#" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+                        <a href="#" class="social-icon social-youtube" title="Youtube" target="_blank"><i class="icon-youtube"></i></a>
+                        <a href="#" class="social-icon social-pinterest" title="Pinterest" target="_blank"><i class="icon-pinterest"></i></a>
+                    </div><!-- End .soial-icons -->
+                </div><!-- End .container -->
+            </div><!-- End .footer-bottom -->
+        </footer><!-- End .footer -->
+    </div><!-- End .page-wrapper -->
+    <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+    <div class="mobile-menu-container mobile-menu-light">
+        <div class="mobile-menu-wrapper">
+            <span class="mobile-menu-close"><i class="icon-close"></i></span>
+
+            <form action="#" method="get" class="mobile-search">
+                <label for="mobile-search" class="sr-only">Search</label>
+                <input type="search" class="form-control" name="mobile-search" id="mobile-search" placeholder="Search in..." required>
+                <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+            </form>
+
+            <nav class="mobile-nav">
+                <ul class="mobile-menu">
+                    <li class="active">
+                        <a href="index.html">Home</a>
+
+                        <ul>
+                            <li><a href="index-1.html">01 - furniture store</a></li>
+                            <li><a href="index-2.html">02 - furniture store</a></li>
+                            <li><a href="index-3.html">03 - electronic store</a></li>
+                            <li><a href="index-4.html">04 - electronic store</a></li>
+                            <li><a href="index-5.html">05 - fashion store</a></li>
+                            <li><a href="index-6.html">06 - fashion store</a></li>
+                            <li><a href="index-7.html">07 - fashion store</a></li>
+                            <li><a href="index-8.html">08 - fashion store</a></li>
+                            <li><a href="index-9.html">09 - fashion store</a></li>
+                            <li><a href="index-10.html">10 - shoes store</a></li>
+                            <li><a href="index-11.html">11 - furniture simple store</a></li>
+                            <li><a href="index-12.html">12 - fashion simple store</a></li>
+                            <li><a href="index-13.html">13 - market</a></li>
+                            <li><a href="index-14.html">14 - market fullwidth</a></li>
+                            <li><a href="index-15.html">15 - lookbook 1</a></li>
+                            <li><a href="index-16.html">16 - lookbook 2</a></li>
+                            <li><a href="index-17.html">17 - fashion store</a></li>
+                            <li><a href="index-18.html">18 - fashion store (with sidebar)</a></li>
+                            <li><a href="index-19.html">19 - games store</a></li>
+                            <li><a href="index-20.html">20 - book store</a></li>
+                            <li><a href="index-21.html">21 - sport store</a></li>
+                            <li><a href="index-22.html">22 - tools store</a></li>
+                            <li><a href="index-23.html">23 - fashion left navigation store</a></li>
+                            <li><a href="index-24.html">24 - extreme sport store</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="category.html">Shop</a>
+                        <ul>
+                            <li><a href="category-list.html">Shop List</a></li>
+                            <li><a href="category-2cols.html">Shop Grid 2 Columns</a></li>
+                            <li><a href="category.html">Shop Grid 3 Columns</a></li>
+                            <li><a href="category-4cols.html">Shop Grid 4 Columns</a></li>
+                            <li><a href="category-boxed.html"><span>Shop Boxed No Sidebar<span class="tip tip-hot">Hot</span></span></a></li>
+                            <li><a href="category-fullwidth.html">Shop Fullwidth No Sidebar</a></li>
+                            <li><a href="product-category-boxed.html">Product Category Boxed</a></li>
+                            <li><a href="product-category-fullwidth.html"><span>Product Category Fullwidth<span class="tip tip-new">New</span></span></a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="wishlist.html">Wishlist</a></li>
+                            <li><a href="#">Lookbook</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="product.html" class="sf-with-ul">Product</a>
+                        <ul>
+                            <li><a href="product.html">Default</a></li>
+                            <li><a href="product-centered.html">Centered</a></li>
+                            <li><a href="product-extended.html"><span>Extended Info<span class="tip tip-new">New</span></span></a></li>
+                            <li><a href="product-gallery.html">Gallery</a></li>
+                            <li><a href="product-sticky.html">Sticky Info</a></li>
+                            <li><a href="product-sidebar.html">Boxed With Sidebar</a></li>
+                            <li><a href="product-fullwidth.html">Full Width</a></li>
+                            <li><a href="product-masonry.html">Masonry Sticky Info</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <ul>
+                            <li>
+                                <a href="about.html">About</a>
+
+                                <ul>
+                                    <li><a href="about.html">About 01</a></li>
+                                    <li><a href="about-2.html">About 02</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+
+                                <ul>
+                                    <li><a href="contact.html">Contact 01</a></li>
+                                    <li><a href="contact-2.html">Contact 02</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="faq.html">FAQs</a></li>
+                            <li><a href="404.html">Error 404</a></li>
+                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+
+                        <ul>
+                            <li><a href="blog.html">Classic</a></li>
+                            <li><a href="blog-listing.html">Listing</a></li>
+                            <li>
+                                <a href="#">Grid</a>
+                                <ul>
+                                    <li><a href="blog-grid-2cols.html">Grid 2 columns</a></li>
+                                    <li><a href="blog-grid-3cols.html">Grid 3 columns</a></li>
+                                    <li><a href="blog-grid-4cols.html">Grid 4 columns</a></li>
+                                    <li><a href="blog-grid-sidebar.html">Grid sidebar</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Masonry</a>
+                                <ul>
+                                    <li><a href="blog-masonry-2cols.html">Masonry 2 columns</a></li>
+                                    <li><a href="blog-masonry-3cols.html">Masonry 3 columns</a></li>
+                                    <li><a href="blog-masonry-4cols.html">Masonry 4 columns</a></li>
+                                    <li><a href="blog-masonry-sidebar.html">Masonry sidebar</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Mask</a>
+                                <ul>
+                                    <li><a href="blog-mask-grid.html">Blog mask grid</a></li>
+                                    <li><a href="blog-mask-masonry.html">Blog mask masonry</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Single Post</a>
+                                <ul>
+                                    <li><a href="single.html">Default with sidebar</a></li>
+                                    <li><a href="single-fullwidth.html">Fullwidth no sidebar</a></li>
+                                    <li><a href="single-fullwidth-sidebar.html">Fullwidth with sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="elements-list.html">Elements</a>
+                        <ul>
+                            <li><a href="elements-products.html">Products</a></li>
+                            <li><a href="elements-typography.html">Typography</a></li>
+                            <li><a href="elements-titles.html">Titles</a></li>
+                            <li><a href="elements-banners.html">Banners</a></li>
+                            <li><a href="elements-product-category.html">Product Category</a></li>
+                            <li><a href="elements-video-banners.html">Video Banners</a></li>
+                            <li><a href="elements-buttons.html">Buttons</a></li>
+                            <li><a href="elements-accordions.html">Accordions</a></li>
+                            <li><a href="elements-tabs.html">Tabs</a></li>
+                            <li><a href="elements-testimonials.html">Testimonials</a></li>
+                            <li><a href="elements-blog-posts.html">Blog Posts</a></li>
+                            <li><a href="elements-portfolio.html">Portfolio</a></li>
+                            <li><a href="elements-cta.html">Call to Action</a></li>
+                            <li><a href="elements-icon-boxes.html">Icon Boxes</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav><!-- End .mobile-nav -->
+
+            <div class="social-icons">
+                <a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Youtube"><i class="icon-youtube"></i></a>
+            </div><!-- End .social-icons -->
+        </div><!-- End .mobile-menu-wrapper -->
+    </div><!-- End .mobile-menu-container -->
+
+    <div class="container newsletter-popup-container mfp-hide" id="newsletter-popup-form">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="row no-gutters bg-white newsletter-popup-content">
+                    <div class="col-xl-3-5col col-lg-7 banner-content-wrap">
+                        <div class="banner-content text-center">
+                            <img src="assets/images/popup/newsletter/logo.png" class="logo" alt="logo" width="60" height="15">
+                            <h2 class="banner-title">get <span>25<light>%</light></span> off</h2>
+                            <p>Subscribe to the Molla eCommerce newsletter to receive timely updates from your favorite products.</p>
+                            <form action="#">
+                                <div class="input-group input-group-round">
+                                    <input type="email" class="form-control form-control-white" placeholder="Your Email Address" aria-label="Email Adress" required>
+                                    <div class="input-group-append">
+                                        <button class="btn" type="submit"><span>go</span></button>
+                                    </div><!-- .End .input-group-append -->
+                                </div><!-- .End .input-group -->
+                            </form>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="register-policy-2" required>
+                                <label class="custom-control-label" for="register-policy-2">Do not show this popup again</label>
+                            </div><!-- End .custom-checkbox -->
+                        </div>
+                    </div>
+                    <div class="col-xl-2-5col col-lg-5 ">
+                        <img src="assets/images/popup/newsletter/img-1.jpg" class="newsletter-img" alt="newsletter">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

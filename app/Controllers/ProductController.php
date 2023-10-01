@@ -19,7 +19,7 @@ public function ProductDetails($id)
     $data = [
       'products' => $product
     ];
-    return view('jhome', $data);
+    return view('home', $data);
   } else {
     return redirect()->to('/home');
   }
@@ -30,6 +30,6 @@ public function home()
   $data = [
     'products' => $this->product->findAll()
   ];
-  return view('jhome', $data);
+  return view('home', $data);
 }
     }
